@@ -39,8 +39,9 @@ public class Static {
 		valuesMap.put("10", 10);
 		valuesMap.put("Jack", 11);
 		valuesMap.put("Queen", 12);
-		valuesMap.put("King", 1);
+		valuesMap.put("King", 13);
 		valuesMap.put("Ace", 1);
+		valuesMap.put("Joker", 14);
 		values = Collections.unmodifiableMap(valuesMap);
 	}
 
