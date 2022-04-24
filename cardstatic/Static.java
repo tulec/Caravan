@@ -53,13 +53,23 @@ public class Static {
 		"Spades"
 	};
 
+	// Casino constants
 	public static final String[] casino = {
 		"Tops",
 		"Gamorra",
 		"Lucky 38",
 		"Ultra-Lux",
-		"Siera-madre"
 	};
+
+	public static final Map<String,String> Factory;
+	static{
+		Map<String,String> FactoryMap = new HashMap<String,String>();
+		colorsMap.put("Tops","T");
+		colorsMap.put("Gamorra", "G");
+		colorsMap.put("Lucky 38","L");
+		colorsMap.put("Ultra-Lux","U"); 
+	}
+	
 
 	// Colors constants: 
 	public static final Map<String, String> colors;
