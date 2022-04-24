@@ -7,10 +7,10 @@ public class Static {
 
 	// Rank names
 	public static final String[] ranks = {
-        "2",
-        "3",
-        "4",
-        "5",
+    	"2",
+    	"3",
+    	"4",
+    	"5",
 		"6",
 		"7",
 		"8",
@@ -20,7 +20,7 @@ public class Static {
 		"Queen",
 		"King",
 		"Ace",
-        "Joker"
+    	"Joker"
 	};
 
 
@@ -28,10 +28,10 @@ public class Static {
 	public static final Map<String, Integer> values;
 	static {
 		Map<String, Integer> valuesMap = new HashMap<String, Integer>();
-        valuesMap.put("2", 2);
-        valuesMap.put("3",3);
-        valuesMap.put("4", 4);
-        valuesMap.put("5", 5);
+    	valuesMap.put("2", 2);
+    	valuesMap.put("3",3);
+    	valuesMap.put("4", 4);
+		valuesMap.put("5", 5);
 		valuesMap.put("6", 6);
 		valuesMap.put("7", 7);
 		valuesMap.put("8", 8);
